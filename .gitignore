@@ -1,0 +1,26 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar archivos del sistema
+.DS_Store
+
+# Ignorar archivos de TensorFlow / Keras
+*.h5
+*.keras
+checkpoint/
+saved_model/
+
+# Ignorar datasets locales (por si algún día lo descargas manualmente)
+*.npz
+*.csv
+
+# Archivos temporales de Jupyter (si en el futuro usas notebooks)
+.ipynb_checkpoints/
+
+# Logs y depuración
+*.log
